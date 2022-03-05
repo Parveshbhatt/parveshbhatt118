@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <title>Parvesh Bhatt Site</title>
-    </head>
-    <body>
-        <table cellspacing="25">
-            <tr>
-                <td><img src="img/parveshbhatt.png" alt="Parvesh Bhatt profile pic"></td>
-                <td><h1>Parvesh Bhatt</h1>
-                    <p><em>B.tech(Information Technology)Student at <strong><a href="https://gndec.ac.in">GNDEC,LDH</a></strong>.</em></p>
-                    <p>I am a passionate programmer and enthusiastic about technology.</p>
-                </td>
-            </tr>
-        </table>
-        
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvesh Bhatt</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="img/cloud.png" alt="blue cloud">
+        <h1>I'm Parvesh Bhatt</h1>
+        <h2>a <span class="pro">pro</span>grammer</h2>
+        <img class="bottom-cloud" src="img/cloud.png" alt="blue cloud">
+        <img src="img/manwithpc.png" alt="man with pc">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img src="img/parveshbhatt.png" alt="parvesh profile pic">
+            <h2>Hello 👋</h2>
+            <p class="intro">B.tech (Information Technology) student at <a class="clg-link"href="https://gndec.ac.in">GNDEC, Ldh.</a>. I 'm a passionate programmer and enthusiastic about technology.</p>
+        </div>
         <hr>
-        <h3>Skills</h3>
-        <table cellspacing="20">
-            <tr>
-                <td>Java</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>C,C++</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>web development</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Advance Java(JSP, Servlets)</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-        </table>
-        
+        <div class="skills ">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="bulb-img" src="img/skill1.png " alt="skills bulb icon ">
+                <h3>Programming Languages</h3>
+                <p>Java, C/C++ </p>
+            </div>
+            <div class="skill-row ">
+                <img class="skill2-img" src="img/skill2.png " alt="webdev icon ">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, Bootstrap</p>
+            </div>
+            <div class="skill-row ">
+                <img class="pc-img" src="img/skill3.png " alt="pc icon ">
+                <h3>Advance Java</h3>
+                <p>JSP, Servlets</p>
+                <p>SQL</p>
+            </div>
+        </div>
         <hr>
-        <h3>Projects</h3>
-        <table cellspacing="15">
-            <thead>
-                <th>Date</th>
-                <th>Project Title</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>dec,2021</td>
-                    <td>NewsApp</td>
-                </tr>
-                <tr>
-                    <td>oct, 2021</td>
-                    <td>Medilog- a java web App</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="projects">
+            <h2>My Projects</h2>
+    
+            <p><a class="project-link" href="https://github.com/Parveshbhatt/NewsApp">nov, 2021 - NewsApp</a></p>
+            <p><a class="project-link" href="https://github.com/Parveshbhatt/Medilog">sep, 2021 - Medilog(A Java webApp)</a></p>
+        </div>
         <hr>
-        <a href="hobbies.html"><h2>My hobbies</h2></a>
-        <a href="contact-me.html"><h2>Contact me</h2></a>
-    </body>
+
+        <div class="contact-me ">
+            <h2>Get In Touch</h2>
+            <h3>if you love programming as much as i do</h3>
+            <p class="contact-msg">you can contact me by clicking button below.</p>
+            <a class="btn" href="mailto:parveshbhatt118@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link " href="https://www.linkedin.com/in/parvesh-bhatt-5b24b7202/ ">LinkedIn</a>
+        <a class="footer-link " href="https://twitter.com/parveshbhatt_ ">Twitter</a>
+        <a class="footer-link " href="https://parveshbhatt.github.io/parveshbhatt118">Website</a>
+        <p class="copyright"> &copy; Parvesh Bhatt @ Gndec,ldh.</p>
+    </div>
+
+
+
+
+</body>
+
 </html>
