@@ -1,17 +1,10 @@
 body{
     font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2{
-    color: rgb(13, 122, 211);
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: 200;
 }
 
 p{
@@ -28,11 +21,38 @@ hr{
     padding: 3% 15%;
 }
 
-
-/* title */
-#title{
+.colored-bg{
     background-color: #95D1CC;
     color: #fff;
+}
+
+
+
+/* title section */
+#title .row{
+    text-align: left;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.medium-heading{
+    color: rgb(13, 122, 211);
+    font-weight: 200;
+    margin-bottom: 3%;
+}
+
+.top-cloud{
+    position: relative;
+    left: 80%;
+    width: 25%;
+}
+
+/* Title image */
+.manwithpc-image{
+    width: 95%;
 }
 
 
@@ -44,7 +64,7 @@ hr{
 .navbar-brand{
     font-family:  'Ubuntu', sans-serif;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 .nav-item{
@@ -60,40 +80,103 @@ hr{
     margin: 5% 5% 0 0;
 }
 
-.top-cloud{
-    position: relative;
-    left: 80%;
-    width: 25%;
-}
-
-/* Title image */
-.manwithpc-image{
-    width: 95%;
-}
 
 /* About section */
-#About{
-    padding: 3% 12%;
-    text-align: center;
-}
 
 .about-description{
     margin: 10px auto;
     width: 50%;
 }
 
-/* skill section */
 
-#skills{
-    padding: 4% 15%;
-    text-align: center;
-}
-
-.skill-col{
+#skills .col-lg-4{ 
     padding: 5%;
     margin: 5px auto;
 }
 
 .skill-img{
     margin-bottom: 1.5rem;
+}
+
+
+/* project Section */
+#projects{
+    background-color: skyblue;
+}
+
+#project-hd{
+    color: #fff;
+    padding-top: 2rem;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+
+.carousel-img{
+    padding: 6rem;
+    border-radius: 5%;
+}
+
+.project-link{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.project-link:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Volunteer-Experience */
+#Volunteer-Experience{
+    text-align: center;
+    margin: 5px;
+}
+
+.volunteer-exp-hd{
+    margin: 3%;
+}
+
+.volunteer-link:hover{
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+
+/* footer section */
+
+.social-icon{
+    margin: 3rem 1rem 6rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    border-radius: 10%;
+}
+
+.copyright{
+    color: #fff;
+}
+
+
+@media (max-width: 980px) {
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .carousel-img{
+        padding: 0;
+        border-radius: 1%;
+    }
+
+    .project-link{
+        font-size: 1rem;
+    }
+
+    .volunteer-exp-hd{
+        font-size: 1.5rem;
+    }
 }
