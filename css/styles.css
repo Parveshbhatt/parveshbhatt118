@@ -1,158 +1,182 @@
-body {
-    color: #40514e;
-    margin: 0;
+body{
+    font-family: 'Montserrat-light', sans-serif;
     text-align: center;
-    font-family: 'Merriweather', serif;
 }
 
-h1 {
-    color: #66bfbf;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    margin: 80px auto 0 auto;
-}
-
-h2 {
-    color: #66bfbf;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif;
 }
 
 p{
-    line-height: 2;
+    color: #8f8f8f;
 }
 
-.clg-link{
-    color:#11999e;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
+hr{
+    border: 6px dotted rgb(156, 212, 226);
+    border-bottom: none;
+    width: 3%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.colored-bg{
+    background-color: #95D1CC;
+    color: #fff;
+}
+
+
+
+/* title section */
+#title .row{
+    text-align: left;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.medium-heading{
+    color: rgb(13, 122, 211);
+    font-weight: 200;
+    margin-bottom: 3%;
+}
+
+.top-cloud{
+    position: relative;
+    left: 80%;
+    width: 25%;
+}
+
+/* Title image */
+.manwithpc-image{
+    width: 95%;
+}
+
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Resume button */
+.resume-btn{
+    margin: 5% 5% 0 0;
+}
+
+
+/* About section */
+
+.about-description{
+    margin: 10px auto;
+    width: 50%;
+}
+
+
+#skills .col-lg-4{ 
+    padding: 5%;
+    margin: 5px auto;
+}
+
+.skill-img{
+    margin-bottom: 1.5rem;
+}
+
+
+/* project Section */
+#projects{
+    background-color: skyblue;
+}
+
+#project-hd{
+    color: #fff;
+    padding-top: 2rem;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+
+.carousel-img{
+    padding: 6rem;
+    border-radius: 5%;
 }
 
 .project-link{
-    color:#11999e;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat-Bold";
     font-size: 1.5rem;
+    margin: 0;
+}
+
+.project-link:hover{
     text-decoration: none;
+    color: #fff;
 }
 
-.footer-link{
-    color: #11999e;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
+/* Volunteer-Experience */
+#Volunteer-Experience{
+    text-align: center;
+    margin: 5px;
+}
+
+.volunteer-exp-hd{
+    margin: 3%;
+}
+
+.volunteer-link:hover{
     text-decoration: none;
+    color: skyblue;
 }
 
-a:hover{
-    color: #EAF6F6;
+
+
+/* footer section */
+
+.social-icon{
+    margin: 3rem 1rem 6rem;
 }
 
-hr {
-    border: dotted #EAF6F6 6px;
-    border-bottom: none;
-    margin: 50px auto;
-    width: 5%;
+.social-icon:hover{
+    background-color: black;
+    border-radius: 10%;
 }
 
-.pro {
-    text-decoration: underline;
-}
-
-.top-container {
-    background-color: #e4f5f6;
-    padding-top: 100px;
-    position: relative;
-}
-
-.middle-container{
-    margin: 90px auto;
-    padding: 20px;
-}
-
-.bottom-container{
-    background-color: #66bfbf;
-    padding: 50px 0 20px;
-}
-
-.intro{
-    width: 50%;
-    margin: 10px auto;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 200px;
-    top: 20px;
-}
-
-.bottom-cloud {
-    position: absolute; 
-    left: 320px;
-    bottom: 420px;
-}
-
-.skill-row {
-    line-height: 2; 
-    margin: 100px auto; 
-    text-align: left;
-    width: 50%;
-}
-
-.bulb-img{
-    width: 20%;
-    float: left;
-    margin-right: 30px;
-}
-.skill2-img{
-    width: 20%;
-    float: left;
-    margin-right: 20px;
-}
-
-.pc-img{
-    width: 20%;
-    float: left;
-    margin-right: 20px;
-}
-
-.contact-msg{
-    width: 40%;
-    margin: 50px auto;
-}
- 
 .copyright{
-    color: #EAF6F6;
-    font-size: 0.85rem;
-    padding: 20px 0; 
+    color: #fff;
 }
 
-.btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30a3cb;
-    background-image: -webkit-linear-gradient(top, #30a3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30a3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30a3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30a3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30a3cb, #2bc4ad);
-    text-decoration: none;
-  }
+
+@media (max-width: 980px) {
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .carousel-img{
+        padding: 0;
+        border-radius: 1%;
+    }
+
+    .project-link{
+        font-size: 1rem;
+    }
+
+    .volunteer-exp-hd{
+        font-size: 1.5rem;
+    }
+}
